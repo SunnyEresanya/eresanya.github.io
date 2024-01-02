@@ -1,0 +1,218 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    background-color: #ffcc00;
+    color: #333;
+    line-height: 1.6;
+}
+
+nav {
+    width: 100%;
+    height: auto; /* Adjusted to auto to accommodate variable content height */
+    background-color: #fff;
+    padding: 10px 0; /* Added padding for spacing */
+    
+}
+
+ul {
+    margin-left: 20px; /* Adjusted margin for better alignment */
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 40px; /* Adjusted line height for better alignment */
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #1e1e1e;
+    padding: 0 15px; /* Adjusted padding for better spacing */
+}
+
+ul li a:hover {
+    color: #c13584;
+}
+.logo {
+    max-width: 200px;
+    height: 150px; /* Ensures the logo scales proportionally */
+}
+
+.header-main {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-main h1 {
+    margin-right: 10px;
+}
+
+.header-main-nav {
+    width: fit-content;
+    height: 100%;
+}
+
+.header-main-nav ul {
+    list-style: none;
+    margin-left: 10px; /* Adjusted margin for better alignment */
+}
+
+.header-main-nav ul li {
+    display: inline;
+    margin-right: 15px; /* Adjusted margin for better spacing */
+}
+
+.header-main-nav ul li a {
+    font-size: 16px; /* Increased font size for better visibility */
+    line-height: 40px; /* Adjusted line height for better alignment */
+}
+
+.header-main-nav ul li a:hover {
+    color: #c13584;
+}
+
+main {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c13584;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 70vh cover;
+    background-image: url('imagesx/bdaybkgrd.jpg');
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Added flex-wrap for responsiveness */
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.talents {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center; /* Centering talents in the container */
+    text-align: center; /* Centering text in the container */
+    font-size: large;
+    font: bolder;
+    font-weight: 300;
+    color: #fff;
+    
+}
+
+.talents h2 {
+    margin-bottom: 20px; /* Added margin for better spacing */
+    font-size: xx-large;
+   
+}
+
+.image-container {
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.responsive-image {
+    max-width: 100%;
+    width: 300px;
+}
+
+.text-container {
+    max-width: 50%;
+}
+
+h2 {
+    color: #333;
+}
+.contact-form{
+    background-color: #ffcc00;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 35em) {
+    header {
+        background-color: blue;
+        color: azure;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    header::after {
+        content: 'logo';
+    }
+
+    main div .imagesx-clown {
+        max-width: 100%;
+        height: 10em;
+        background-color: #c13584;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: 70vh cover;
+        background-image: url('imagesx/clown001.jpg');
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Additional Media Queries */
+@media only screen and (min-width: 35.001em) and (max-width: 59.99em) {
+    main {
+        width: 100%;
+        background-color: green;
+    }
+}
+
+@media only screen and (min-width: 59.991em) and (max-width: 74.99em) {
+    main {
+        width: 100%;
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 74.991em) and (max-width: 2000em) {
+    main {
+        width: 100%;
+        background-color: aquamarine;
+    }
+}
+
+/* Footer styles */
+
+footer {
+    background-color: #ffcc00;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #c13584;
+}
+
+
+
+
+
+
+    
+/*600px, 601px, 768px, 992px, 1200px*/
+ 

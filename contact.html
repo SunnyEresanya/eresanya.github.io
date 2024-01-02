@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Bobo</title>
+</head>
+<body>
+    <header class="header-main">
+        <img src="imagesx/logo001.jpg" alt="Bob Logo" class="logo">
+        <h1>Welcome to Bobo the Clown</h1>
+        <nav class="header-main-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-bobo">
+            <div class="image-container">
+                <picture>
+                    <source srcset="imagesx/clown002.jpg" media="(min-width: 1em) and (max-width:35em)">
+                    <source srcset="imagesx/clown003.jpg" media="(min-width: 35.001em) and (max-width:50.99em)">
+                    <img src="imagesx/clown003.jpg" alt="Bob Image 1" class="responsive-image">
+                </picture>
+            </div>
+            
+            <div class="text-container">
+                <h2>Meet Bobo</h2>
+                <p>
+                    Bobo is not just an ordinary clown; he is a magical entertainer who brings joy and laughter to kids of all ages.<br> With a heart full of happiness and a bag full of tricks, Bobo is the perfect companion for your child's birthday party.
+                </p>
+                <!-- Add more paragraphs as needed -->
+            </div>
+        </section>
+
+        <section class="talents">
+            <h2>Bobo's Talents</h2>
+            <ul>
+                <li>Balloon Animals</li>  |
+                <li>Magic Tricks</li>  |
+                <li>Face Painting</li>  |
+                <li>Juggling Mastery</li>  |
+                <li>Interactive Magic Workshop</li>
+                <!-- Add more talents as needed -->
+            </ul>
+        </section>
+
+        <section class="back-story">
+            <h2>Bobo's Back Story</h2>
+            <p>
+                Born out of a dream to spread happiness, Bobo discovered his passion for clowning at a young age.<br> His colorful personality and unique talents make him the perfect entertainer for any celebration.
+            </p>
+            <!-- Add more paragraphs as needed -->
+        </section>
+    </main>
+
+    <section class="contact-form">
+        <h2>Book Bobo for Your Event</h2>
+        <form action="processForm.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="hours">Hours:</label>
+            <input type="number" id="hours" name="hours" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    
+    <footer>
+        <p>Contact Bobo at <a href="mailto:bobo@example.com">bobo@example.com</a></p>
+        <p>Visit us at 123 Clown Street, Clownsville</p>
+        <p>Call Bobo at Tel: 123-456-7890</p>
+        <p>Follow Bobo on <a href="https://www.instagram.com/bobotheclown/" target="_blank">Instagram</a> and <a href="https://www.facebook.com/bobotheclown/" target="_blank">Facebook</a></p>
+    </footer>
+    
+</body>
+</html>
